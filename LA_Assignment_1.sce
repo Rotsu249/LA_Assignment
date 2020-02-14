@@ -247,6 +247,12 @@ function gauss_jordan()
     end
     I=eye(3,3)
     a=[a I]
+     for(i=1:3)
+        for( j=1:3)
+            L(i,j)=0
+        end
+        L(i,i)=1
+    end
     [U,no_of_piv,piv,swap,ps,L]=u_matrix(a,L)
     //disp(U,"U is ")
     if(no_of_piv<>3)
