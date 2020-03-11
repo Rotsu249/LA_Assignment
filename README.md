@@ -18,7 +18,7 @@ Assignment 2 :
 - Four fundamental subspaces : Column space, row space, null space, left null space
 
 Remarks :
-  -> All the functions can be used for any m X n matrices
+  -> The functions in assignment-2 can be used for any m X n matrices
   -> Dimension and Basis for every subspace is displayed
   
   
