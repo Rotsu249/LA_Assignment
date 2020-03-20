@@ -8,8 +8,8 @@ Assignment 1 :
 - Gauss Jordan
 
 Remarks :
-      - All 3 functions are performed for 3 * 3 matrices only
-      - Each function takes it's own input.
+  - All 3 functions are performed for 3 * 3 matrices only
+  - Each function takes it's own input.
    
 -----------------------------------------------------------------------------------------   
 Assignment 2 :
