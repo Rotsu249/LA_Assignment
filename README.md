@@ -28,7 +28,7 @@ Assignment 3 :
 - Best Fit Line
 
 Remarks :
-  -> Takes n values for ti and bi (i.e n points) and finds best fit line for them
+  -> Takes n values for t and b (i.e n points) and finds best fit line for them
   -> Scatter plot of the original points and the best fit line are plotted for better visualization
   
 
