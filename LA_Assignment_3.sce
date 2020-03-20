@@ -29,9 +29,11 @@ function error_minimise()
         return
     end
     
-    A_original=A
+    a_original=A;
     A_temp=ones(n,1);
     A=[A_temp A];
+    A_original=A
+    b_original=b;
     disp(A,"A : ");
     disp(b,"b: ")
     clf();
@@ -52,8 +54,28 @@ function error_minimise()
     y = m * x + c;
     plot2d(x, y,color("red"))
     
-    p=xhat;
-    
+    disp("---------------------------------------------------")
+    disp("VERIFICATION THAT ERROR IS MINIMUM")
+    p=A_original*xhat;
+    e=b_original-p;
+    for(i=1:n)
+        if(e(i,1)<0.0000000001)
+            e(i,1)=0;
+        end
+    end
+    printf("The error vector e is : ")
+    disp(e)
+    printf("Verification that e is minimum:\n")
+    printf("For e to be minimum, e.a must be 0\n")
+    inner_product=sum(a_original.*e);
+    //disp(inner_product)
+    disp("The dot/inner product a.e =")
+    if(inner_product<0.00000000000001)
+        inner_product=0;
+    end
+    printf("%d\n",inner_product)
+    disp("-------------------END----------------------------------");
+
 endfunction
 
 
