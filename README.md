@@ -30,6 +30,8 @@ Assignment 3 :
 Remarks :
   -> Takes n values for t and b (i.e n points) and finds best fit line for them
   -> Scatter plot of the original points and the best fit line are plotted for better visualization
+  -> The error vector 'e' is also found out.
+  -> Verification that error('e') is minimum is also found out by checking whether the inner product of 'a' and 'e' is 0.
   
 
 -----------------------------------------------------------------------------------------
