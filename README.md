@@ -11,7 +11,7 @@ Remarks :
    -> All 3 functions are performed for 3 * 3 matrices only
    -> Each function takes it's own input.
    
-   
+-----------------------------------------------------------------------------------------   
 Assignment 2 :
 
 - Column Space
@@ -21,5 +21,16 @@ Remarks :
   -> The functions in assignment-2 can be used for any m X n matrices
   -> Dimension and Basis for every subspace is displayed
   
+ ----------------------------------------------------------------------------------------- 
+
+Assignment 3 :
+
+- Best Fit Line
+
+Remarks :
+  -> Takes n values for ti and bi (i.e n points) and finds best fit line for them
+  -> Scatter plot of the original points and the best fit line are plotted for better visualization
   
+
+-----------------------------------------------------------------------------------------
 Thank You
